@@ -1,9 +1,14 @@
 <template>
-  <Tutorial/>
+  <CustomCarsList/>
 </template>
 
 <script>
+import CustomCarsList from "./components/CustomCarsList";
+
 export default {
-  name: 'IndexPage'
-}
+  name: "IndexPage",
+  components: {
+    CustomCarsList
+  }
+};
 </script>
